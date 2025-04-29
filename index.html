@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sayali Deshmukh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Sayali</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>Hi There! 👋<br> I'M <span class="highlight">SAYALI DESHMUKH</span></h1>
+      <h2><span id="typed"></span></h2>
+      <a href="#contact" class="contact-btn">Contact Me</a>
+    </div>
+
+    <div class="home-img">
+      <img src="profile.jpg" alt="Sayali Deshmukh Profile Photo" class="profile-img" />
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate third-year B.Tech Electronics and Telecommunication Engineering student with a strong interest
+      in both software (Web Development, Machine Learning) and hardware technologies.
+    </p>
+    <p>
+      My areas of expertise include Artificial Intelligence, Machine Learning, Computer Vision, and Full Stack Web
+      Development.
+    </p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Dice Rolling Simulator</h3>
+        <p>A fun and educational dice rolling simulator developed using Java Swing. Users can roll dice, add/remove
+          them, and reset the game.</p>
+      </div>
+      <div class="project-card">
+        <h3>Hospital Management System</h3>
+        <p>A web-based app built using HTML, CSS, PHP, and SQL that manages hospital operations like patient records and
+          billing.</p>
+      </div>
+      <div class="project-card">
+        <h3>Student Performance Analysis</h3>
+        <p>An ML-powered web app that predicts student grades using data analytics with Flask and Render.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming: C++, Java, JavaScript</li>
+      <li>Web: HTML, CSS, ReactJS, PHP, SQL</li>
+      <li>Blockchain: Solidity, Web3.js, Metamask</li>
+      <li>Machine Learning: Scikit-learn, Flask</li>
+      <li>Cloud: AWS Basics</li>
+    </ul>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>MIT Academy of Engineering, Pune</h3>
+      <p>B.Tech in E&TC | 2021–2025 | CGPA: 8.90</p>
+    </div>
+    <div class="edu-card">
+      <h3>Shri Shivaji Science College</h3>
+      <p>12th (HSC) | 2019–2021 | 85%</p>
+    </div>
+    <div class="edu-card">
+      <h3>Holy Cross Marathi High School</h3>
+      <p>10th (SSC) | 2018–2019 | 98%</p>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <a href="resume.pdf" class="download-btn" download>Download My Resume</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: sayali.deshmukh@mitaoe.ac.in</p>
+    <p>Phone: +91-8055522794</p>
+    <p>
+      <a href="https://www.linkedin.com/in/your-link" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/your-github" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sayali Deshmukh</p>
+  </footer>
+
+  <script>
+    new Typed("#typed", {
+      strings: ["Web Developer", "ML Enthusiast", "Tech Explorer"],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true
+    });
+  </script>
+</body>
+
+</html>
